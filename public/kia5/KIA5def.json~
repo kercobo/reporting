@@ -1,0 +1,12 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "12",
+ "rowEnd": "17",
+ "parameter": {
+"anemia5": "H",
+"KEK5": "L"
+  }
+  }
+]
