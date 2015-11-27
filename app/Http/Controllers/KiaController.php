@@ -18,8 +18,8 @@ class KiaController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function createkia1($key){
-        $python ="/usr/bin/python /home/soran/work/laravel/report/public/kia1/reporting.py -c /home/soran/work/laravel/report/public/kia1/querylist.json -j /home/soran/work/laravel/report/public/kia1/KIA1_def.json -x /home/soran/work/laravel/report/public/kia1/pws1.xlsx";
-        $json_query = '/home/soran/work/laravel/report/public/kia1/querylist.json';
+        $python ="/usr/bin/python " . public_path(). "/kia1/reporting.py -c " . public_path(). "/kia1/querylist.json -j " . public_path(). "/kia1/KIA1_def.json -x " . public_path(). "/kia1/pws1.xlsx";
+        $json_query = '" . public_path(). "/kia1/querylist.json';
         $begin = '2015-01';
 
 
@@ -126,8 +126,8 @@ class KiaController extends Controller
     }
 
     public function createkia2($key){
-        $python ="/usr/bin/python /home/soran/work/laravel/report/public/kia2/reporting.py -c /home/soran/work/laravel/report/public/kia2/querylist.json -j /home/soran/work/laravel/report/public/kia2/KIA2def.json -x /home/soran/work/laravel/report/public/kia2/pws2.xlsx";
-        $json_query = '/home/soran/work/laravel/report/public/kia2/querylist.json';
+        $python ="/usr/bin/python " . public_path(). "/kia2/reporting.py -c " . public_path(). "/kia2/querylist.json -j " . public_path(). "/kia2/KIA2def.json -x " . public_path(). "/kia2/pws2.xlsx";
+        $json_query = '" . public_path(). "/kia2/querylist.json';
         $begin = '2015-01';
         if($key == 'January'){
             $prev = '2015-00';
@@ -221,8 +221,8 @@ class KiaController extends Controller
     }
 
     public function createkia3($key){
-        $python ="/usr/bin/python /home/soran/work/laravel/report/public/kia3/reporting.py -c /home/soran/work/laravel/report/public/kia3/querylist.json -j /home/soran/work/laravel/report/public/kia3/KIA3def.json -x /home/soran/work/laravel/report/public/kia3/pws3.xlsx";
-        $json_query = '/home/soran/work/laravel/report/public/kia3/querylist.json';
+        $python ="/usr/bin/python " . public_path(). "/kia3/reporting.py -c " . public_path(). "/kia3/querylist.json -j " . public_path(). "/kia3/KIA3def.json -x " . public_path(). "/kia3/pws3.xlsx";
+        $json_query = '" . public_path(). "/kia3/querylist.json';
         $begin = '2015-01';
         if($key == 'January'){
             $prev = '2015-00';
@@ -339,8 +339,8 @@ class KiaController extends Controller
     }
 
     public function createkia4($key){
-        $python ="/usr/bin/python /home/soran/work/laravel/report/public/kia4/reporting.py -c /home/soran/work/laravel/report/public/kia4/querylist.json -j /home/soran/work/laravel/report/public/kia4/KIA4def.json -x /home/soran/work/laravel/report/public/kia4/pws4.xlsx";
-        $json_query = '/home/soran/work/laravel/report/public/kia4/querylist.json';
+        $python ="/usr/bin/python " . public_path(). "/kia4/reporting.py -c " . public_path(). "/kia4/querylist.json -j " . public_path(). "/kia4/KIA4def.json -x " . public_path(). "/kia4/pws4.xlsx";
+        $json_query = '" . public_path(). "/kia4/querylist.json';
         $begin = '2015-01';
         if($key == 'January'){
             $prev = '2015-00';
@@ -434,8 +434,8 @@ class KiaController extends Controller
     }
 
     public function createkia5($key){
-        $python ="/usr/bin/python /home/soran/work/laravel/report/public/kia5/reporting.py -c /home/soran/work/laravel/report/public/kia5/querylist.json -j /home/soran/work/laravel/report/public/kia5/KIA5def.json -x /home/soran/work/laravel/report/public/kia5/pws5.xlsx";
-        $json_query = '/home/soran/work/laravel/report/public/kia5/querylist.json';
+        $python ="/usr/bin/python " . public_path(). "/kia5/reporting.py -c " . public_path(). "/kia5/querylist.json -j " . public_path(). "/kia5/KIA5def.json -x " . public_path(). "/kia5/pws5.xlsx";
+        $json_query = '" . public_path(). "/kia5/querylist.json';
         $begin = '2015-01';
         if($key == 'January'){
             $prev = '2015-00';
