@@ -19,35 +19,35 @@ Route::get('home', ['middleware' => 'auth', function(){
 		return view('home');
 }]);
 
-Route::get('kia', function()
+Route::get('kia', ['middleware' => 'auth', function()
 {
 	
 	return View('kiaibu');
-});
+}]);
 
-Route::get('kiaibu', function()
+Route::get('kiaibu', ['middleware' => 'auth', function()
 {
 	
 	return View('kia2');
-});
+}]);
 
-Route::get('kiaibu3', function()
+Route::get('kiaibu3', ['middleware' => 'auth', function()
 {
 	
 	return View('kia3');
-});
+}]);
 
-Route::get('kiaibu4', function()
+Route::get('kiaibu4', ['middleware' => 'auth', function()
 {
 	
 	return View('kia4');
-});
+}]);
 
-Route::get('kiaibu5', function()
+Route::get('kiaibu5', ['middleware' => 'auth', function()
 {
 	
 	return View('kia5');
-});
+}]);
 
 
 
@@ -74,5 +74,7 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 
+
+// get chart
 Route::get('indek', 'StatsController@getIndex');
 Route::get('api', 'StatsController@getApi');
