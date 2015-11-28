@@ -1,0 +1,62 @@
+[
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi5   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-05-01' and '2015-05-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi5"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan5   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-05-01' and '2015-05-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan5"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi6   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-06-01' and '2015-06-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi6"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan6   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-06-01' and '2015-06-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan6"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi7   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-07-01' and '2015-07-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi7"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan7   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-07-01' and '2015-07-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan7"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi8   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-08-01' and '2015-08-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi8"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan8   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-08-01' and '2015-08-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan8"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi9   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-09-01' and '2015-09-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi9"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan9   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-09-01' and '2015-09-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan9"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa, count(*) as pelayanan_komplikasi10   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-10-01' and '2015-10-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi10"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa,count(*) as pelayanan_komplikasi_ditemukan10   FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.isHighRiskPregnancy = 'yes' or kartu_anc_registration.riwayatKomplikasiKebidanan !='-' and kartu_anc_visit.submissionDate between '2015-10-01' and '2015-10-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "pelayanan_komplikasi_ditemukan10"
+    }
+]

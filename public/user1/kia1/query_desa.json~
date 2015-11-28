@@ -1,0 +1,7 @@
+[
+  {
+    "query_desa": "select desa from kartu_ibu_registration where userId ='user12' group by desa",
+    "col": "B",
+    "value": "desa",
+  }
+]

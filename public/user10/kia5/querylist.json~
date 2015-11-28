@@ -1,0 +1,63 @@
+[
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia5 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-05-01' and '2015-05-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia5"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK5 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-05-01' and '2015-05-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK5"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia6 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-06-01' and '2015-06-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia6"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK6 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-06-01' and '2015-06-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK6"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia7 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-07-01' and '2015-07-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia7"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK7 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-07-01' and '2015-07-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK7"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia8 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-08-01' and '2015-08-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia8"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK8 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-08-01' and '2015-08-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK8"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia9 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-09-01' and '2015-09-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia9"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK9 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-09-01' and '2015-09-31'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK9"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as anemia10 FROM kartu_anc_visit_labTest inner join kartu_ibu_registration on kartu_anc_visit_labTest.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit_labTest.highRiskPregnancyAnemia = 'yes'  and kartu_anc_visit_labTest.submissionDate between '2015-10-01' and '2015-10-30'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "anemia10"
+    },
+    {
+        "query": "SELECT kartu_ibu_registration.desa as desa, count(*) as KEK10 FROM kartu_anc_visit inner join kartu_ibu_registration on kartu_anc_visit.KiId = kartu_ibu_registration.id inner join kartu_anc_registration on kartu_anc_registration.id = kartu_ibu_registration.id where kartu_anc_visit.highRiskPregnancyProteinEnergyMalnutrition = 'yes' or kartu_anc_registration.highRiskPregnancyProteinEnergyMalnutrition = 'yes' and kartu_anc_visit.submissionDate between '2015-10-01' and '2015-10-30'group by kartu_ibu_registration.desa",
+        "control": "desa",
+        "value": "KEK10"
+    }
+    
+]

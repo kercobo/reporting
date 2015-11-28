@@ -1,0 +1,2 @@
+#!/bin/bash
+python reporting.py -c querylist.json -j KIA1_def.json -x pws1.xlsx 

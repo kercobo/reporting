@@ -1,0 +1,14 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "12",
+ "rowEnd": "27",
+ "parameter": {
+"anemia_bulan_lalu": "G",
+"anemia_bulan_ini": "H",
+"KEK_bulan_lalu": "K",
+"KEK_bulan_ini": "L"
+  }
+  }
+]

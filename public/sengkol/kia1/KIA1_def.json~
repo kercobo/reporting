@@ -1,0 +1,16 @@
+[
+  {
+    "control": "desa",
+    "col": "B",
+    "rowStart": "11",
+    "rowEnd": "17",
+    "parameter": {
+      "k1_bulan_lalu": "H",
+      "k1_bulan_ini": "H",
+      "k4_bulan_lalu": "M",
+      "k1_bulan_ini": "H",
+      "Resiko_bulan_lalu": "H",
+      "Resiko_bulan_ini": "R"
+    }
+  }
+]

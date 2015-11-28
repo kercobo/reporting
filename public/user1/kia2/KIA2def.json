@@ -1,0 +1,14 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "19",
+ "rowEnd": "47",
+ "parameter": {
+"pelayanan_komplikasi_bulan_lalu": "G",
+"pelayanan_komplikasi_bulan_ini": "H",
+"komplikasi_ditemukan_bulan_lalu": "K",
+"komplikasi_ditemukan_bulan_ini": "L"
+  }
+  }
+]

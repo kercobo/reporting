@@ -1,0 +1,14 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "12",
+ "rowEnd": "17",
+ "parameter": {
+"linfas_bulan_lalu": "G",
+"linfas_bulan_ini": "H",
+"kunjungan_bulan_lalu": "L",
+"kunjungan_bulan_ini": "M"
+  }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "13",
+ "rowEnd": "28",
+ "parameter": {
+"linakes_laki_bulan_lalu": "G",
+"linakes_laki_bulan_ini": "J",
+"linakes_perempuan_bulan_lalu": "H",
+"linakes_perempuan_bulan_ini": "K",
+"linnonkes_laki_bulan_lalu": "P",
+"linnonkes_laki_bulan_ini": "S",
+"linnonkes_perempuan_bulan_lalu": "Q",
+"linnonkes_perempuan_bulan_ini": "T"
+  }
+  }
+]
