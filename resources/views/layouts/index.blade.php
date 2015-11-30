@@ -19,7 +19,7 @@
             <ul class="nav navbar-top-links navbar-right">
                 
              
-                <!-- /.dropdown -->
+              <li> <p>{{ Auth::user()->name }}</p></li>
                 
                 <!-- /.dropdown -->
                 <li class="dropdown">

@@ -17,7 +17,7 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-                
+                <li> <p>{{ Auth::user()->name }}</p></li>
                <li class="dropdown">
                     <a href="{{ url ('/') }}"><i class="fa fa-folder fa-fw"></i>  Home <i class="fa fa-caret-down"></i>
                     </a>
