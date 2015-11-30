@@ -29,7 +29,7 @@
                                     <select onChange="window.location.href=this.value">
                                     <?php foreach($month as $row): 
                                       ?>
-                                      <option value="kiaanak/<?php echo $row; ?>" > <?php echo $row;?> </option>
+                                      <option value="kiaanak2/<?php echo $row; ?>" > <?php echo $row;?> </option>
                                         
                                    <?php 
                                      endforeach; ?>
