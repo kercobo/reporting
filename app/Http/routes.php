@@ -50,10 +50,21 @@ Route::get('kiaibu5', ['middleware' => 'auth', function()
 }]);
 
 
+Route::get('kiaanak', ['middleware' => 'auth', function()
+{
+	
+	return View('kiaanak');
+}]);
 
 
 //route to create xls tempalte
 Route::get('kia1/{key}', 'KiaController@createkia1');
+Route::get('kia2/{key}', 'KiaController@createkia2');
+Route::get('kia3/{key}', 'KiaController@createkia3');
+Route::get('kia4/{key}', 'KiaController@createkia4');
+Route::get('kia5/{key}', 'KiaController@createkia5');
+
+Route::get('kiaanak/{key}', 'KiaAnakController@createkiaanak1');
 Route::get('kia2/{key}', 'KiaController@createkia2');
 Route::get('kia3/{key}', 'KiaController@createkia3');
 Route::get('kia4/{key}', 'KiaController@createkia4');
@@ -78,3 +89,4 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 // get chart
 Route::get('indek', 'StatsController@getIndex');
 Route::get('api', 'StatsController@getApi');
+Route::get('apik4', 'StatsController@getApik4');

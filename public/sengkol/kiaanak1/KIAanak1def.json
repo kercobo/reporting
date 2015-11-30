@@ -1,0 +1,18 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "14",
+ "rowEnd": "20",
+ "parameter": {
+"KN1_laki_bulan_lalu": "H",
+"KN1_laki_bulan_ini": "K",
+"KN1_perempuan_bulan_lalu": "I",
+"KN1_perempuan_bulan_ini": "L",
+"KN3_laki_bulan_lalu": "R",
+"KN3_laki_bulan_ini": "U",
+"KN3_perempuan_bulan_lalu": "S",
+"KN3_perempuan_bulan_ini": "V"
+  }
+  }
+]

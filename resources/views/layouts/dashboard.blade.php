@@ -80,11 +80,11 @@
                                      <a href="#"><i class="fa fa-files-o fa-fw"></i> PWS ANAK<span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">   
                                 
-                                        <li {{ (Request::is('#') ? 'class="active"' : '') }}>
-                                            <a href="{{ url ('#' ) }}">PWS ANAK 1</a>
+                                        <li {{ (Request::is('*kiaanak') ? 'class="active"' : '') }}>
+                                            <a href="{{ url ('kiaanak' ) }}">PWS ANAK 1</a>
                                         </li>
-                                        <li {{ (Request::is('#') ? 'class="active"' : '') }}>
-                                            <a href="{{ url ('#' ) }}">PWS ANAK 2</a>
+                                        <li {{ (Request::is('*kiaanak') ? 'class="active"' : '') }}>
+                                            <a href="{{ url ('kiaanak' ) }}">PWS ANAK 2</a>
                                         </li>
                                         <li {{ (Request::is('#') ? 'class="active"' : '') }}>
                                             <a href="{{ url ('#' ) }}">PWS ANAK 3</a>
