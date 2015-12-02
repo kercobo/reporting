@@ -1,0 +1,18 @@
+[
+  {
+ "control": "desa",
+ "col": "B",
+ "rowStart": "14",
+ "rowEnd": "20",
+ "parameter": {
+"KN1_laki": "K",
+"KN1_perempuan6": "L",
+"KN1_laki": "K",
+"KN1_perempuan6": "L",
+"KN1_laki": "K",
+"KN1_perempuan6": "L",
+"KN3_laki6": "U",
+"KN3_perempuan6": "V"
+  }
+  }
+]

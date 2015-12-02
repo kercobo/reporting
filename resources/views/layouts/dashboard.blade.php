@@ -86,8 +86,8 @@
                                         <li {{ (Request::is('*kiaanak2') ? 'class="active"' : '') }}>
                                             <a href="{{ url ('kiaanak2' ) }}">PWS ANAK 2</a>
                                         </li>
-                                        <li {{ (Request::is('#') ? 'class="active"' : '') }}>
-                                            <a href="{{ url ('#' ) }}">PWS ANAK 3</a>
+                                        <li {{ (Request::is('*kiaanak3') ? 'class="active"' : '') }}>
+                                            <a href="{{ url ('kiaanak3' ) }}">PWS ANAK 3</a>
                                         </li>
                                         <li {{ (Request::is('#') ? 'class="active"' : '') }}>
                                             <a href="{{ url ('#' ) }}">PWS ANAK 4</a>
