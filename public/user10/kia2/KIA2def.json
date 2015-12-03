@@ -3,7 +3,7 @@
  "control": "desa",
  "col": "B",
  "rowStart": "19",
- "rowEnd": "42",
+ "rowEnd": "25",
  "parameter": {
 "pelayanan_komplikasi_bulan_lalu": "G",
 "pelayanan_komplikasi_bulan_ini": "H",

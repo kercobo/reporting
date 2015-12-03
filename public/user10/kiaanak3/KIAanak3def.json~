@@ -3,7 +3,7 @@
  "control": "desa",
  "col": "B",
  "rowStart": "15",
- "rowEnd": "26",
+ "rowEnd": "43",
  "parameter": {
 "kunjungan1_bulan_lalu": "H",
 "kunjungan1_bulan_ini": "I",

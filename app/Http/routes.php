@@ -68,6 +68,18 @@ Route::get('kiaanak3', ['middleware' => 'auth', function()
 	return View('kiaanak3');
 }]);
 
+Route::get('kiaanak4', ['middleware' => 'auth', function()
+{
+	
+	return View('kiaanak4');
+}]);
+
+Route::get('kiaanak5', ['middleware' => 'auth', function()
+{
+	
+	return View('kiaanak5');
+}]);
+
 
 //route to create xls tempalte
 Route::get('kia1/{key}', 'KiaController@createkia1');
@@ -79,6 +91,8 @@ Route::get('kia5/{key}', 'KiaController@createkia5');
 Route::get('kiaanak/{key}', 'KiaAnakController@createkiaanak1');
 Route::get('kiaanak2/{key}', 'KiaAnakController@createkiaanak2');
 Route::get('kiaanak3/{key}', 'KiaAnakController@createkiaanak3');
+Route::get('kiaanak4/{key}', 'KiaAnakController@createkiaanak4');
+Route::get('kiaanak5/{key}', 'KiaAnakController@createkiaanak5');
 
 
 

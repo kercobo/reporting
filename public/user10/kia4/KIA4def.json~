@@ -3,7 +3,7 @@
  "control": "desa",
  "col": "B",
  "rowStart": "12",
- "rowEnd": "40",
+ "rowEnd": "17",
  "parameter": {
 "linfas_bulan_lalu": "G",
 "linfas_bulan_ini": "H",
