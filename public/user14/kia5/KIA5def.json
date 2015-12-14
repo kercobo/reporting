@@ -3,8 +3,9 @@
  "control": "desa",
  "col": "B",
  "rowStart": "12",
- "rowEnd": "24",
+ "rowEnd": "65",
  "parameter": {
+"desa" : "B",
 "anemia_bulan_lalu": "G",
 "anemia_bulan_ini": "H",
 "KEK_bulan_lalu": "K",

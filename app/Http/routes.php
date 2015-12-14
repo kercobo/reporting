@@ -16,6 +16,10 @@ Route::get('/', ['middleware' => 'auth', function(){
 }]);
 
 Route::get('home', ['middleware' => 'auth', function(){
+		//Clean up Dusun list
+       DB::update("UPDATE analytics.kartu_ibu_registration SET dusun = REPLACE (dusun, '+', ' ')");
+       DB::update("UPDATE analytics.kartu_ibu_registration SET dusun = REPLACE (dusun, '_', ' ')");
+       DB::update("UPDATE analytics.kartu_ibu_registration SET dusun = REPLACE (dusun, 'None', 'Tidak_diisi')");
 		return view('home');
 }]);
 

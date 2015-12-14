@@ -3,8 +3,9 @@
  "control": "desa",
  "col": "B",
  "rowStart": "12",
- "rowEnd": "24",
+ "rowEnd": "65",
  "parameter": {
+"desa" : "B",
 "linfas_bulan_lalu": "G",
 "linfas_bulan_ini": "H",
 "kunjungan_bulan_lalu": "L",

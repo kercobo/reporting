@@ -2,9 +2,10 @@
   {
  "control": "desa",
  "col": "B",
- "rowStart": "19",
- "rowEnd": "42",
+ "rowStart": "14",
+ "rowEnd": "65",
  "parameter": {
+"desa" : "B",
 "pelayanan_komplikasi_bulan_lalu": "G",
 "pelayanan_komplikasi_bulan_ini": "H",
 "komplikasi_ditemukan_bulan_lalu": "K",

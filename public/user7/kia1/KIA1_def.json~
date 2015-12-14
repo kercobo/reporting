@@ -3,7 +3,7 @@
     "control": "desa",
     "col": "B",
     "rowStart": "11",
-    "rowEnd": "39",
+    "rowEnd": "34",
     "parameter": {
       "k1_bulan_lalu": "G",
       "k1_bulan_ini": "H",
