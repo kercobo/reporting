@@ -2,9 +2,10 @@
   {
  "control": "desa",
  "col": "B",
- "rowStart": "12",
- "rowEnd": "27",
+ "rowStart": "13",
+ "rowEnd": "65",
  "parameter": {
+"desa": "B",
 "kunjungan_bulan_lalu1": "H",
 "kunjungan_bulan_lalu2": "I",
 "kunjungan_bulan_lalu3": "J",

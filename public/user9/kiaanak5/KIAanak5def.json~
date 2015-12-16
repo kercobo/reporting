@@ -3,8 +3,9 @@
  "control": "desa",
  "col": "B",
  "rowStart": "13",
- "rowEnd": "28",
+ "rowEnd": "29",
  "parameter": {
+"desa": "B",
 "kunjungan_bulan_lalu1": "H",
 "kunjungan_bulan_lalu2": "I",
 "kunjungan_bulan_lalu3": "J",

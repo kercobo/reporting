@@ -3,10 +3,13 @@
  "control": "desa",
  "col": "B",
  "rowStart": "12",
- "rowEnd": "17",
+ "rowEnd": "29",
  "parameter": {
-"anemia5": "H",
-"KEK5": "L"
+"desa" : "B",
+"anemia_bulan_lalu": "G",
+"anemia_bulan_ini": "H",
+"KEK_bulan_lalu": "K",
+"KEK_bulan_ini": "L"
   }
   }
 ]

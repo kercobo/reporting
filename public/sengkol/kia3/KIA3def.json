@@ -3,8 +3,9 @@
  "control": "desa",
  "col": "B",
  "rowStart": "13",
- "rowEnd": "18",
+ "rowEnd": "66",
  "parameter": {
+"desa" : "B",
 "linakes_laki_bulan_lalu": "G",
 "linakes_laki_bulan_ini": "J",
 "linakes_perempuan_bulan_lalu": "H",

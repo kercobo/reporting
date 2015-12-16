@@ -3,13 +3,13 @@
     "control": "desa",
     "col": "B",
     "rowStart": "11",
-    "rowEnd": "17",
+    "rowEnd": "34",
     "parameter": {
-      "k1_bulan_lalu": "H",
+      "k1_bulan_lalu": "G",
       "k1_bulan_ini": "H",
-      "k4_bulan_lalu": "M",
-      "k1_bulan_ini": "H",
-      "Resiko_bulan_lalu": "H",
+      "k4_bulan_lalu": "L",
+      "k1_bulan_ini": "M",
+      "Resiko_bulan_lalu": "Q",
       "Resiko_bulan_ini": "R"
     }
   }

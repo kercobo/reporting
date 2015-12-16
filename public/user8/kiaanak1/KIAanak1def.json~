@@ -5,6 +5,7 @@
  "rowStart": "14",
  "rowEnd": "30",
  "parameter": {
+"desa": "B",
 "KN1_laki_bulan_lalu": "H",
 "KN1_laki_bulan_ini": "K",
 "KN1_perempuan_bulan_lalu": "I",

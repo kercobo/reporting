@@ -3,8 +3,9 @@
  "control": "desa",
  "col": "B",
  "rowStart": "14",
- "rowEnd": "29",
+ "rowEnd": "65",
  "parameter": {
+"desa": "B",
 "komplikasi_bulan_lalu": "H",
 "komplikasi_bulan_ini": "I",
 "komplikasi_tertangani_bulan_lalu": "N",
