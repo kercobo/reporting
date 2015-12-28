@@ -27,7 +27,7 @@ class KiaController extends Controller
             $desa = 'kartu_ibu_registration.desa';
       }
       else{
-            $desa = 'kartu_ibu_registration.dusun';
+            $desa = 'kartu_ibu_registration.posyandu';
       }
 
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia1/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia1/KIA1_def.json -x " . public_path(). "/".\Auth::user()->username."/kia1/pws1.xlsx";
@@ -89,7 +89,7 @@ class KiaController extends Controller
 
         $arr = array(
                                         array(
-                                            "query" => "SELECT dusun from kartu_ibu_registration where userID='".\Auth::user()->username."' group by dusun",
+                                            "query" => "SELECT posyandu from kartu_ibu_registration where userID='".\Auth::user()->username."' group by posyandu",
                                              "control" => "desa",
                                             "value" => "desa"
                                               
@@ -152,7 +152,7 @@ class KiaController extends Controller
             $desa = 'kartu_ibu_registration.desa';
       }
       else{
-            $desa = 'kartu_ibu_registration.dusun';
+            $desa = 'kartu_ibu_registration.posyandu';
       }
 
           
@@ -213,7 +213,7 @@ class KiaController extends Controller
        }
        $arr = array(
                                         array(
-                                            "query" => "SELECT dusun from kartu_ibu_registration where userID='".\Auth::user()->username."' group by dusun",
+                                            "query" => "SELECT posyandu from kartu_ibu_registration where userID='".\Auth::user()->username."' group by posyandu",
                                              "control" => "desa",
                                             "value" => "desa"
                                               
@@ -266,7 +266,7 @@ class KiaController extends Controller
             $desa = 'kartu_ibu_registration.desa';
       }
       else{
-            $desa = 'kartu_ibu_registration.dusun';
+            $desa = 'kartu_ibu_registration.posyandu';
       }
          $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia3/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia3/KIA3def.json -x " . public_path(). "/".\Auth::user()->username."/kia3/pws3.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia3/querylist.json";
@@ -324,7 +324,7 @@ class KiaController extends Controller
        }
        $arr = array(
                                         array(
-                                            "query" => "SELECT dusun from kartu_ibu_registration where userID='".\Auth::user()->username."' group by dusun",
+                                            "query" => "SELECT posyandu from kartu_ibu_registration where userID='".\Auth::user()->username."' group by posyandu",
                                              "control" => "desa",
                                             "value" => "desa"
                                               
@@ -400,7 +400,7 @@ class KiaController extends Controller
             $desa = 'kartu_ibu_registration.desa';
       }
       else{
-            $desa = 'kartu_ibu_registration.dusun';
+            $desa = 'kartu_ibu_registration.posyandu';
       }
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia4/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia4/KIA4def.json -x " . public_path(). "/".\Auth::user()->username."/kia4/pws4.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia4/querylist.json";
@@ -458,7 +458,7 @@ class KiaController extends Controller
        }
        $arr = array(
                                         array(
-                                            "query" => "SELECT dusun from kartu_ibu_registration where userID='".\Auth::user()->username."' group by dusun",
+                                            "query" => "SELECT posyandu from kartu_ibu_registration where userID='".\Auth::user()->username."' group by posyandu",
                                              "control" => "desa",
                                             "value" => "desa"
                                               
@@ -511,7 +511,7 @@ class KiaController extends Controller
             $desa = 'kartu_ibu_registration.desa';
       }
       else{
-            $desa = 'kartu_ibu_registration.dusun';
+            $desa = 'kartu_ibu_registration.posyandu';
       }
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia5/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia5/KIA5def.json -x " . public_path(). "/".\Auth::user()->username."/kia5/pws5.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia5/querylist.json";
@@ -569,7 +569,7 @@ class KiaController extends Controller
        }
        $arr = array(
                                         array(
-                                            "query" => "SELECT dusun from kartu_ibu_registration where userID='".\Auth::user()->username."' group by dusun",
+                                            "query" => "SELECT posyandu from kartu_ibu_registration where userID='".\Auth::user()->username."' group by posyandu",
                                              "control" => "desa",
                                             "value" => "desa"
                                               
