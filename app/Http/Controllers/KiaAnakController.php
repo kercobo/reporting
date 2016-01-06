@@ -12,7 +12,7 @@ class KiaAnakController extends Controller
    
 
   public function createkiaanak1($key){
-      $begin = '2015-01';
+      $begin = '2016-01';
       //set query group by
       if(\Auth::check() && \Auth::user()->username === 'sengkol'){
             $desa = 'kartu_ibu_registration.desa';
@@ -31,52 +31,52 @@ class KiaAnakController extends Controller
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
+            $prev = '2016-05';
             $month = '".$month."';
        }
        elseif($key == 'July'){
             $prev = '".$month."';
-            $month = '2015-07';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -151,7 +151,7 @@ class KiaAnakController extends Controller
     }
 
     public function createkiaanak2($key){
-      $begin = '2015-01';
+      $begin = '2016-01';
       //set query group by
       if(\Auth::check() && \Auth::user()->username === 'sengkol'){
             $desa = 'kartu_ibu_registration.desa';
@@ -170,52 +170,52 @@ class KiaAnakController extends Controller
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
+            $prev = '2016-05';
             $month = '".$month."';
        }
        elseif($key == 'July'){
             $prev = '".$month."';
-            $month = '2015-07';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -267,7 +267,7 @@ class KiaAnakController extends Controller
     }
 
     public function createkiaanak3($key){
-      $begin = '2015-01';
+      $begin = '2016-01';
       //set query group by
       if(\Auth::user()->username == 'sengkol'){
             $desa = 'kartu_ibu_registration.desa';
@@ -286,51 +286,51 @@ class KiaAnakController extends Controller
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
+            $prev = '2016-05';
             $month = '".$month."';
        }
        elseif($key == 'July'){
             $prev = '".$month."';
-            $month = '2015-07';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -383,7 +383,7 @@ class KiaAnakController extends Controller
     }
 
     public function createkiaanak4($key){
-      $begin = '2015-01';
+      $begin = '2016-01';
       //set query group by
       if(\Auth::user()->username == 'sengkol'){
             $desa = 'kartu_ibu_registration.desa';
@@ -402,51 +402,51 @@ class KiaAnakController extends Controller
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
+            $prev = '2016-05';
             $month = '".$month."';
        }
        elseif($key == 'July'){
             $prev = '".$month."';
-            $month = '2015-07';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -523,7 +523,7 @@ class KiaAnakController extends Controller
     }
 
     public function createkiaanak5($key){
-      $begin = '2015-01';
+      $begin = '2016-01';
       //set query group by
       if(\Auth::user()->username == 'sengkol'){
             $desa = 'kartu_ibu_registration.desa';
@@ -542,51 +542,51 @@ class KiaAnakController extends Controller
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
+            $prev = '2016-05';
             $month = '".$month."';
        }
        elseif($key == 'July'){
             $prev = '".$month."';
-            $month = '2015-07';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here

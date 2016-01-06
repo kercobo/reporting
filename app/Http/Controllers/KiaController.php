@@ -32,56 +32,56 @@ class KiaController extends Controller
 
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia1/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia1/KIA1_def.json -x " . public_path(). "/".\Auth::user()->username."/kia1/pws1.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia1/querylist.json";
-        $begin = '2015-01';
+        $begin = '2016-01';
 
 
        if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
-            $month = '2015-06';
+            $prev = '2016-05';
+            $month = '2016-06';
        }
        elseif($key == 'July'){
-            $prev = '2015-06';
-            $month = '2015-07';
+            $prev = '2016-06';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -159,54 +159,54 @@ class KiaController extends Controller
 
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia2/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia2/KIA2def.json -x " . public_path(). "/".\Auth::user()->username."/kia2/pws2.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia2/querylist.json";
-        $begin = '2015-01';
+        $begin = '2016-01';
         if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
-            $month = '2015-06';
+            $prev = '2016-05';
+            $month = '2016-06';
        }
        elseif($key == 'July'){
-            $prev = '2015-06';
-            $month = '2015-07';
+            $prev = '2016-06';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -270,54 +270,54 @@ class KiaController extends Controller
       }
          $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia3/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia3/KIA3def.json -x " . public_path(). "/".\Auth::user()->username."/kia3/pws3.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia3/querylist.json";
-        $begin = '2015-01';
+        $begin = '2016-01';
         if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
-            $month = '2015-06';
+            $prev = '2016-05';
+            $month = '2016-06';
        }
        elseif($key == 'July'){
-            $prev = '2015-06';
-            $month = '2015-07';
+            $prev = '2016-06';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -404,54 +404,54 @@ class KiaController extends Controller
       }
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia4/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia4/KIA4def.json -x " . public_path(). "/".\Auth::user()->username."/kia4/pws4.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia4/querylist.json";
-        $begin = '2015-01';
+        $begin = '2016-01';
         if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
-            $month = '2015-06';
+            $prev = '2016-05';
+            $month = '2016-06';
        }
        elseif($key == 'July'){
-            $prev = '2015-06';
-            $month = '2015-07';
+            $prev = '2016-06';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
@@ -515,54 +515,54 @@ class KiaController extends Controller
       }
         $python ="/usr/bin/python " . public_path(). "/reporting.py -c " . public_path(). "/".\Auth::user()->username."/kia5/querylist.json -j " . public_path(). "/".\Auth::user()->username."/kia5/KIA5def.json -x " . public_path(). "/".\Auth::user()->username."/kia5/pws5.xlsx";
         $json_query = "" . public_path(). "/".\Auth::user()->username."/kia5/querylist.json";
-        $begin = '2015-01';
+        $begin = '2016-01';
         if($key == 'January'){
-            $prev = '2015-00';
-            $month = '2015-01';
+            $prev = '2016-00';
+            $month = '2016-01';
        }
        elseif($key == 'February'){
-            $prev = '2015-01';
-            $month = '2015-02';
+            $prev = '2016-01';
+            $month = '2016-02';
        }
        elseif($key == 'March'){
-            $prev = '2015-02';
-            $month = '2015-03';
+            $prev = '2016-02';
+            $month = '2016-03';
        }
        elseif($key == 'April'){
-            $prev = '2015-03';
-            $month = '2015-04';
+            $prev = '2016-03';
+            $month = '2016-04';
        }
        elseif($key == 'May'){
-            $prev = '2015-04';
-            $month = '2015-05';
+            $prev = '2016-04';
+            $month = '2016-05';
        }
        elseif($key == 'June'){
-            $prev = '2015-05';
-            $month = '2015-06';
+            $prev = '2016-05';
+            $month = '2016-06';
        }
        elseif($key == 'July'){
-            $prev = '2015-06';
-            $month = '2015-07';
+            $prev = '2016-06';
+            $month = '2016-07';
        }
        elseif($key == 'August'){
-            $prev = '2015-07';
-            $month = '2015-08';
+            $prev = '2016-07';
+            $month = '2016-08';
        }
        elseif($key == 'September'){
-            $prev = '2015-08';
-            $month = '2015-09';
+            $prev = '2016-08';
+            $month = '2016-09';
        }
        elseif($key == 'October'){
-            $prev = '2015-09';
-            $month = '2015-10';
+            $prev = '2016-09';
+            $month = '2016-10';
        }
        elseif ($key == 'November') {
-            $prev = '2015-10';
-            $month = '2015-11';
+            $prev = '2016-10';
+            $month = '2016-11';
        }
        elseif ($key == 'December') {
-           $prev = '2015-11';
-            $month = '2015-12';
+           $prev = '2016-11';
+            $month = '2016-12';
        }
        else{
         //nothing to do here
